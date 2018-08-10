@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>上下左右居中</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		html,body{
+			height: 100%;
+		}
+		.page-wrap{
+			display:-ms-flex-box;
+			display:-moz-box;
+			display:-webkit-box;
+			display:-webkit-flex;
+			display:box;
+			display:flex-box;
+			display:flex;
+			justify-content:center;
+			align-items: center;
+			height: 100%;
+		}
+		.page-wrap section{
+			width: 100px;
+			background: #f00;
+		}
+	</style>
+</head>
+<body>
+	<div class="page-wrap">
+		<section>
+			上下左右居中上下左右居中上下左右居中上下左右居中上下左右居中上下左右居中上下左右居中上下左右居中上下左右居中
+		</section>
+	</div>
+</body>
+</html>

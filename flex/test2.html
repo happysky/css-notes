@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.container{
+			display:flex;
+			width:500px;
+			height: 500px;
+			flex-flow:row no-wrap;
+			justify-content:space-around;
+			align-items:center;
+			align-content:center;
+			border:#f00 solid 1px;
+		}
+		.container div{
+			background: #f00;
+			width:60px;
+			height: 50px
+			/*flex:1;*/
+		}
+		.item1{
+			height: 100px
+		}
+		.item2{
+			height: 50px;
+		}
+		.item3{
+			height: 200px;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="item1">item1</div>
+			<div class="item2">item2</div>
+			<div class="item3">item3</div>
+			<div class="item1">item4</div>
+			<div class="item2">item5</div>
+			<div class="item3">item6</div>
+			<div class="item1">item7</div>
+			<div class="item2">item8</div>
+			<div class="item3">item9</div>
+			<div class="item3">item10</div>
+			<div class="item1">item11</div>
+			<div class="item2">item12</div>
+			<div class="item3">item13</div>
+			<div class="item1">item14</div>
+		</div>
+	</body>
+</html>

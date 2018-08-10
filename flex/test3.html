@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>左右结构，自适应</title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			html,body{
+				height: 100%;
+			}
+			.container{
+				display:flex;
+				display:-webkit-flex;
+				background: #000;
+				height: 100%;
+			}
+			.container section{
+				order:2;
+				flex:1;
+				-webkit-flex:1;
+				background:#00f;
+				margin: 0 10px;
+			}
+			.container nav{
+				order:1;
+				width:200px;
+				background:#f0f;
+			}
+			.container aside{
+				order:3;
+				width:200px;
+				background:#f00;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<section>我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器我是主容器</section>
+			<nav>
+				我是导航
+			</nav>
+			<aside>
+				我是侧边栏
+			</aside>
+		</div>
+	</body>
+</html>
